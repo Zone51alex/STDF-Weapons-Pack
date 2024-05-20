@@ -1,0 +1,30 @@
+{
+    "id":"stdf_wepons_pack",
+    "name":"STDF Weapons Pack",
+    "author":"Zone51,Damex",	
+    "version":
+    {
+        "major":0,
+        "minor":0,
+        "patch":3,
+    },
+    "description":"Adds the Medium Mount Tineola Torp Weapon a kitbash of the large mount version. given permission by Nia Tahl after a flub up.",
+    "gameVersion": "0.97a",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            #"version": "2.6"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+            #"version": "2.6"
+        },
+		{
+            "id": "scalartech",
+            "name": "ScalarTech Solutions",
+            #"version": "0.9"
+        },
+    ],
+}

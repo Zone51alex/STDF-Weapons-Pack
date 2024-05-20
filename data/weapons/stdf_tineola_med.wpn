@@ -1,0 +1,36 @@
+{
+	"specClass":"projectile",
+	"id":"stdf_tineola_med",
+	"type":"MISSILE",
+	"size":"MEDIUM",
+	"turretSprite": "graphics/stdf/weapons/tahlan_tineola_med_launcher_turret.png",
+	"hardpointSprite": "graphics/stdf/weapons/tahlan_tineola_med_launcher_hp.png",
+	"renderHints":[RENDER_LOADED_MISSILES],		
+	"turretOffsets":[9,0],
+    "turretAngleOffsets":[0],
+    "hardpointOffsets":[9,0],
+    "hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	#"animationType":"SMOKE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 6,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      185,
+      170,
+      180,
+      170
+    ]
+  },
+	"projectileSpecId":"tahlan_tineola_msl",  # projectile that will be fired
+	"fireSoundTwo":"reaper_fire",
+}

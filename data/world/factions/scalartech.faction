@@ -1,0 +1,11 @@
+{
+	id:"scalartech",
+	
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "scalartech_wep_bp"],
+		"weapons":[
+			"stdf_tineola_med"
+		],
+	},
+},
+
